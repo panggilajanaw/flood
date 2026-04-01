@@ -78,7 +78,7 @@ async function bootup() {
     console.log(`|| ▓▓▓▓▓▓░░░░ || 60%`);
     
     const secretBangetJir = await fetch('https://raw.githubusercontent.com/panggilajanaw/flood/key.txt');
-    const password = await secretBangetJir.text();
+    const password = "skibidi";
     await console.log(`Login Key Required`)
     permen.question('[\x1b[1m\x1b[31mLOL Security\x1b[0m]: \n', async (skibidi) => {
       if (skibidi === password.trim()) {
